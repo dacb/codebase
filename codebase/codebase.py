@@ -4,6 +4,9 @@ def predict(row, weights):
         https://machinelearningmastery.com/
             implement-perceptron-algorithm-scratch-python/
     """
+
+    raise ValueError("kids")
+
     activation = weights[0]
     for i in range(len(row)-1):
         activation += weights[i + 1] * row[i]
